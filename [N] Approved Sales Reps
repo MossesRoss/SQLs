@@ -1,0 +1,3 @@
+SELECT firstname, lastname, phone, title
+FROM employee
+WHERE issalesrep = 'T' AND employeestatus = 3
