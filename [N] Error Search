@@ -1,0 +1,4 @@
+select entity, custbody_sri_mos__discount_percentage, c.companyname
+from transaction t
+inner join customer c on c.entityid = t.entity
+where custbody_sri_mos__discount_percentage > 0.1
